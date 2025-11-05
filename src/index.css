@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  color: #333;
+}
+
+/* Estilo da lista de filmes */
+.lista-filmes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Estilo do card de cada filme */
+.filme-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.filme-card:hover {
+  transform: scale(1.05);
+}
+
+.filme-poster {
+  width: 150px;
+  border-radius: 3px;
+  margin-top: 10px;
+}
