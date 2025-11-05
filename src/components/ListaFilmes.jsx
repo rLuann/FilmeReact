@@ -7,7 +7,7 @@ function ListaFilmes({ filmes }) {
             {filmes.map((filme, index) => (
                 <Filme
                     key={index}
-                    titulo={filme.titulo}
+                    
                     ano={filme.ano}
                     poster={filme.poster}
                 />
