@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.filmes {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-top: 10px;
+    margin-left: 450px;
+    transition: all 0.4s;
+    width: 600px;
+    
+}
+
+.filmes:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.filmes  img {
+    padding: 6px;
+}

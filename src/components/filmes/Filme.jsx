@@ -1,10 +1,12 @@
 import React from 'react'
+import './filmes.css'
 
-function Filme({ titulo, ano, poster }) {
+function Filme({ titulo, ano, poster, genero }) {
     return (
-        <div style={{ border: '1px solid #ccc', padding: '10px', margin: '10px' }}>
+        <div className='filmes'>
             <h3>{titulo} ({ano})</h3>
             <img src={poster} alt={titulo} width="150" />
+            <p>Gênero: {genero}</p>
         </div>
     )
 }
