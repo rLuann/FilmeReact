@@ -8,13 +8,15 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    border: 1px solid #ccc;
+    border: 2px solid var(--roxo-claro);
+    border-radius: 10px;
     padding: 15px;
     margin-top: 10px;
     margin-left: 450px;
     transition: all 0.4s;
     width: 600px;
-    
+    background-color: rgba(0, 0, 0, 0.566);
+
 }
 
 .filmes:hover {
@@ -22,13 +24,42 @@
     cursor: pointer;
 }
 
-.filmes  img {
-    padding: 6px;
+.filmes img {
+    padding: 7px;
 }
 
 .genero {
     position: absolute;
     top: 60px;
     left: 200px;
-    
+
+}
+
+.streaming {
+    position: absolute;
+    top: 90px;
+    left: 200px;
+
+}
+
+.desc {
+    position: absolute;
+    top: 120px;
+    left: 200px;
+    right: 10px;
+}
+
+.link {
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+    transition: all 0.4s;
+    color: white;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: var(--roxo-claro);
+    text-decoration: underline;
+    transform: scale(1.05);
 }

@@ -12,6 +12,9 @@ function ListaFilmes({ filmes }) {
                     ano={filme.ano}
                     poster={filme.poster}
                     genero={filme.genero}
+                    streaming={filme.streaming}
+                    desc={filme.desc}
+                    link={filme.link}
                 />
             ))}
         </div>
