@@ -24,7 +24,6 @@ body {
 
 .logo {
   margin-top: 5px;
-  margin-left: 500px;
   width: 500px;
   height: auto;
   margin-bottom: 30px;
@@ -36,3 +35,8 @@ body {
 
 }
 
+.conteudo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

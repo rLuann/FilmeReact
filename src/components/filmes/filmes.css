@@ -7,14 +7,14 @@
 .filmes {
     position: relative;
     display: flex;
+    align-items: center;
     flex-direction: column;
     border: 2px solid var(--roxo-claro);
     border-radius: 10px;
     padding: 15px;
     margin-top: 10px;
-    margin-left: 450px;
     transition: all 0.4s;
-    width: 600px;
+    width: 300px;
     background-color: rgba(0, 0, 0, 0.566);
 
 }
