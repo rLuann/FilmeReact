@@ -22,7 +22,7 @@ function ListaFilmes({ filmes }) {
         </div>
       ))}
 
-      {/* Renderiza o modal se houver um filme selecionado */}
+      
       {filmeSelecionado && (
         <Modal
           filme={filmeSelecionado}

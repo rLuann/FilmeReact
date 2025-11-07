@@ -17,8 +17,8 @@ export default function Modal({ filme, onClose }) {
                 <div className='descricao'>
                     <p><strong>Gênero:</strong> {filme.genero}</p>
                     <p><strong>Streaming:</strong> {filme.streaming}</p>
-                    <p>{filme.desc}</p>
-                    <a href={filme.link} target="_blank" rel="noreferrer">Saiba mais</a>
+                    <p> Sinopse: {filme.desc}</p>
+                    <a href={filme.link} target="" rel="">Saiba mais</a>
                 </div>
 
             </div>
