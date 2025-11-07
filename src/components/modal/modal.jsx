@@ -5,11 +5,11 @@ export default function Modal({ filme, onClose }) {
     if (!filme) return null // se não tiver filme, não renderiza o modal
 
     return (
-        <div className="modal-overlay" onClick={onClose}>
-            <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+        <div className="modal-fundo" onClick={onClose}>
+            <div className="modal-conteudo" onClick={(e) => e.stopPropagation()}>
                 <button className="close-btn" onClick={onClose}>X</button>
 
-                <div>
+                <div className='poster-titulo'>
                     <h3>{filme.titulo} ({filme.ano})</h3>
                     <img src={filme.poster} alt={filme.titulo} width="250" />
                 </div>

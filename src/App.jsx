@@ -44,7 +44,7 @@ const filmes = [
 
 function App() {
   return (
-    <div  className='background'>
+    <div className='background'>
       {/* <img src={Background} alt="Não sei" /> */}
 
       <div className='conteudo'>

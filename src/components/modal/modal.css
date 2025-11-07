@@ -1,4 +1,10 @@
-.modal-overlay {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.modal-fundo {
     position: fixed;
     inset: 0;
     background-color: rgba(0, 0, 0, 0.8);
@@ -8,7 +14,7 @@
     z-index: 999;
 }
 
-.modal-content {
+.modal-conteudo {
     position: relative;
     display: flex;
     background-color: black;
@@ -19,10 +25,18 @@
     text-align: center;
     position: relative;
     box-shadow: 0 0 20px var(--roxo-claro);
+    box-sizing: border-box;
+}
+
+.descricao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .descricao p {
     padding: 5px;
+    margin-left: 50px;
 }
 
 .descricao a {
@@ -31,20 +45,20 @@
     bottom: 20px;
 }
 
-.modal-content h3 {
+.modal-conteudo h3 {
     position: absolute;
-    left: 20px;
-    top: 15px;
+    left: 145px;
+    top: 20px;
 }
 
-.modal-content img {
+.modal-conteudo img {
     border-radius: 5px;
     margin-bottom: 15px;
     width: auto;
     height: 200px;
 }
 
-.modal-content a {
+.modal-conteudo a {
     position: absolute;
     color: white;
     right: 10px;
@@ -53,7 +67,7 @@
 
 }
 
-.modal-content a:hover {
+.modal-conteudo a:hover {
     color: var(--roxo-claro);
     text-decoration: underline;
     transform: scale(1.05);
@@ -74,4 +88,9 @@
 .close-btn:hover {
     color: var(--roxo-claro);
     transform: scale(1.05);
+}
+
+.poster-titulo h3 { 
+    position: absolute;
+
 }

@@ -1,12 +1,13 @@
 import React, { useState } from 'react'
 import Filme from './filmes/Filme'
 import Modal from './modal/modal'
+import './lista.css'
 
 function ListaFilmes({ filmes }) {
   const [filmeSelecionado, setFilmeSelecionado] = useState(null)
 
   return (
-    <div>
+    <div className='lista'>
       {filmes.map((filme, index) => (
         <div key={index} onClick={() => setFilmeSelecionado(filme)}>
           <Filme

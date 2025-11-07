@@ -16,6 +16,8 @@
     transition: all 0.4s;
     width: 300px;
     background-color: rgba(0, 0, 0, 0.566);
+    height: 500px;
+    
 
 }
 
@@ -26,6 +28,9 @@
 
 .filmes img {
     padding: 7px;
+    margin-right: auto;
+    margin-left: auto;
+    
 }
 
 .genero {
