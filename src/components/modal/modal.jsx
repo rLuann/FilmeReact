@@ -2,7 +2,7 @@ import React from 'react'
 import './modal.css'
 
 export default function Modal({ filme, onClose }) {
-    if (!filme) return null // se não tiver filme, não renderiza o modal
+    if (!filme) return null 
 
     return (
         <div className="modal-fundo" onClick={onClose}>

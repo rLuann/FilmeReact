@@ -45,23 +45,19 @@
     bottom: 20px;
 }
 
-.modal-conteudo h3 {
-    position: absolute;
-    left: 150px;
-    top: 20px;
-    
-}
-
 .modal-conteudo img {
     border-radius: 5px;
     margin-bottom: 15px;
     width: auto;
     height: 200px;
+    transition: all 0.4s;
+    padding-top: 5px;
 }
 
-.modal-conteudo:hover img{
+.modal-conteudo img:hover {
     transform: scale(1.05);
     cursor: pointer;
+    box-shadow: 0 0 20px var(--roxo-claro);
 }
 
 .modal-conteudo a {
@@ -96,7 +92,9 @@
     transform: scale(1.05);
 }
 
-.poster-titulo h3 { 
+.poster-titulo h3 {
     position: absolute;
+    left: 60px;
+    top: 40px; 
 
 }
